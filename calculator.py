@@ -14,8 +14,8 @@ def multiply(n1, n2):
     result = n1 * n2
     print('Result is:', result)
 
-ch = 'y'
-while ch == 'y':
+ch = 'yes'
+while ch == 'yes':
     print('ENTER 1 TO ADD THE NUMBERS')
     print('ENTER 2 TO SUBTRACT THE NUMBERS')
     print('ENTER 3 TO DIVIDE THE NUMBERS')
@@ -36,4 +36,4 @@ while ch == 'y':
     else:
         print('Wrong choice!')
 
-    ch = input('Do you wish to continue? (y/n): ')
+    ch = input('Do you wish to continue? (yes/no): ')
